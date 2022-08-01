@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 28px;
+    color:aliceblue;
+    margin: 25px 0;
+    
+}
+
+.nav h2{
+   font-size: 2rem; 
+}
+
+body{
+  background: rgb(64,154,255);
+  background: radial-gradient(circle, rgba(64,154,255,1) 0%, rgba(181,132,255,1) 100%);
+}
+
+
+
+.container{
+    border: 0px dashed rgb(255, 255, 255);
+    width: 95%;
+    margin: auto;
+    
+}
+
+.user-input button:hover{
+    background-color: transparent;
+    color: red;
+}
+
+.user-input{
+    margin-right: 20px;
+    border: 0px dashed rgb(255, 255, 255);
+    width: 350px;
+    text-align: center;
+}
+
+.user-input input:focus{
+    box-shadow: 0 0 5px red;
+    border: 1px solid red;
+}
+
+.user-input input
+{
+    outline: none;
+    padding: 8px;
+    border: 0px solid lightblue;
+    height: 38px;
+    width: 80%;
+    border-radius: 5%;
+}
+
+.user-input button{
+    padding: 8px;
+    cursor: pointer;
+    transition: 1s;
+    width: fit-content;
+    outline: none;
+
+}
+
+
+.to-do-items{
+    width: 500px;
+    margin: auto;
+    
+}
+
+.item{
+    color: brown;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    padding: 16px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.item i{
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.item:hover{
+    box-shadow: 0 0 20px red;
+    border: 1px solid red;
+}
+
